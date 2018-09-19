@@ -1,0 +1,46 @@
+body{
+    width: 100%;
+}
+
+/*Main Camp Page*/
+
+img{
+    position: relative;
+    width: 335px;
+    height: 235px
+}
+
+#camp-container{
+    margin: 0 auto;
+    width: 95%;
+}
+.jumbotron{
+    color: white;
+    background-image: url("images/pine-mountain-lake-trees-twitter-backgrounds-nature-landscapes-wallpaper.jpg");
+    background-size: cover;
+    background-position: center center;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+#maincamps-jumbotron{
+    margin-bottom: 0px;
+}
+#addCamp{
+    text-align: right;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: black;
+}
+#navbarSupportedContent button {
+    color: white;
+}
+
+/*Form Page*/
+.form-inline a {
+    margin-right: 5px;
+}
+.form-inline button{
+    margin-left: 52px;
+}

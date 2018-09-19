@@ -1,0 +1,18 @@
+<% include partials/header %>
+    <div class="jumbotron" id ="maincamps-jumbotron">
+           <h1 class="display-4">Go Nature</h1>
+          <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+    </div>
+    <div id="addCamp">
+        <a href="/campgrounds/new" class="btn btn-outline-dark"><i class="fas fa-plus"></i> ADD NEW</a>
+    </div>
+    <div class = "row text-center" style="display:flex; flex-wrap:wrap;">
+        <%campgrounds.forEach(function(camp){%>
+            <div class = "col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                <img class="campImage" src="<%=camp.image%>">
+                <div class ="campName"> <%=camp.name%> </div>
+                <a href="/campgrounds/<%=camp._id%>">READ MORE</a>
+            </div>
+        <% }) %>
+    </div>
+<% include partials/footer %>
